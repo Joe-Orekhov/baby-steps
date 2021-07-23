@@ -1,3 +1,23 @@
-body {
-    background: blue;
+body{
+    background: #989898;
+}
+div#header{
+    position: sticky;
+    width: 100%;
+    top: 0;
+    padding: 20px;
+    background-color: rgb(160, 236, 236);
+    border: 2px solid rgb(124, 189, 189);
+    
 };
+
+div#tabHolder{
+    position: absolute;
+    width: 50%;
+}
+
+.tabs{
+    display: inline;
+    padding-left: 20px;
+    padding-right: 20px;
+}
