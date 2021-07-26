@@ -9,6 +9,7 @@ div#header{
     background-color: rgb(160, 236, 236);
     border: 2px solid rgb(124, 189, 189);
     text-align: center;
+    z-index: 1;
     
 };
 
@@ -23,26 +24,41 @@ div#tabHolder{
     padding-inline: 30px;
     font-family: Georgia;
 }
+#Background{
+    position: relative;
+    width: 100%;
 
-#COLandscape1{
-    transform: scale(1);
-    z-index: -1;
+}
+#backGalleryLeft{
+    position: absolute;
+    left:20px;
+    
+}
+#backGalleryRight{
+    position: absolute;
+    right:20px;
+    
+}
+.COLandscape1{
     width: 200px;
     height: auto;
 }
-#COLandscape2{
-    transform: scale(2);
-    z-index: -1;
+.COLandscape2{
     width: 200px;
     height: auto;
     
 }
-#COLandscape3{
-    transform: scale(3);
-    z-index: -1;
+.COLandscape3{
     width: 200px;
     height: auto;
 }
-#backGallery{
-    z-index: 1;
+
+#bearGame{
+    position: relative;
+    width: 100%;
+}
+#bear{
+    position: relative;
+    bottom: 200px;
+    left: 500px
 }
