@@ -31,4 +31,20 @@ document.addEventListener("keydown", function(e) {
             bearGoRight();
     }
 });
+
+document.getElementById(`bear`);
+
+function bearGoUp(){
+    const upNum = bear.style.bottom.replace("px", "")
+    const up = parseInt(upNum, 10);
     
+if (up > 0) {
+        bear.style.bottom = `${up - 3}px`;
+}
+}
+    
+document.addEventListener("keydown", function(e) {
+     if (e.key === "ArrowUp") {
+            bearGoUp();
+    }
+});
