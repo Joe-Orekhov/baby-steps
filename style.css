@@ -32,8 +32,8 @@ a:link, a:visited {
   }
 
   a:hover, a:active{
-      color: black;
-      text-shadow: black;
+      color: rgb(31, 31, 31);
+      text-shadow: 2px 2px rgb(78, 150, 150);
   }
 #Background{
     position: relative;
