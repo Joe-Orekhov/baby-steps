@@ -33,7 +33,7 @@ a:link, a:visited {
 
   a:hover, a:active{
       color: rgb(31, 31, 31);
-      text-shadow: 2px 2px rgb(78, 150, 150);
+      text-shadow: 2px 2px rgb(96, 179, 179);
   }
 #Background{
     position: relative;
@@ -78,3 +78,10 @@ a:link, a:visited {
     width: 100%;
     text-align: center;
 }
+
+.topper{
+    position: absolute;
+    text-align: center;
+    width: 100%;
+}
+
