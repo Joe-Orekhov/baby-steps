@@ -70,7 +70,7 @@ a:link, a:visited {
 }
 #bear{
     position: relative;
-    top: 200px;
+    bottom: 200px;
     left: 500px
 }
 
@@ -84,4 +84,17 @@ a:link, a:visited {
     text-align: center;
     width: 100%;
 }
+.whiteboard{
+    position: relative;
+    width: 100%;
+}
 
+.canvas{
+    position: relative;
+    left: 50%;
+}
+
+.settings{
+    position: relative;
+    left: 50%;
+}
