@@ -18,6 +18,20 @@
         <div class="topper">
             <h1>Bear</h1>
         </div>
+
+        <div id="whiteboard">
+            <div id="doodle">
+                <canvas id="canvas"></canvas>
+            </div>
+            <div id="settings">
+                <div id="color">
+                    <button onclick="getColor('black');">Black</button>
+                    <button onclick="getColor('red');">Red</button>
+                    <button onclick="getColor('blue');">Blue</button>
+                </div>
+            </div>
+        </div>
+
         </div id="Background">
             <div id="backGalleryLeft">
                 <div class="layer1">
@@ -44,9 +58,8 @@
         </div>
 
         <div id="bearGame">
-            <img src="IMAGES/bear.gif" alt="Cute bear gif" id="bear" style="bottom: 0px; left: 180px;" />
+            <img src="IMAGES/bear.gif" alt="Cute bear gif" id="bear" style="bottom: 10px; left: 180px;" />
             <p id="loading">My Website Is under way. but enjoy this swaying bear anyway</p>>
-
         </div>
         <script src="script.js"></script>
     </body>
